@@ -1,0 +1,13 @@
+@layer components {
+    .nav-base {
+        @apply md: flex md:flex-wrap md:p-3 md:gap-10 md:w-full md:justify-end md:align-middle md:content-center;
+    }
+
+    .nav-bg {
+        @apply sm: bg-red-200 md:bg-rose-500 lg:bg-red-700 xl:bg-red-900;
+    }
+
+    .link-style {
+        @apply bg-slate-400 m-1 p-2;
+    }
+}
